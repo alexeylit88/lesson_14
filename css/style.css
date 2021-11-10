@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.main {
+	font-family: 'Roboto', sans-serif;
+}
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.promise__title {
+	margin: 0 0 33px 0;
+}
+.sub-title {
+	display: flex;
+	padding: 30px 0 33px 0;
+	gap: 9px;
+}
+.sub-title__img {
+	flex: 0 0 28px;
+	background: url(../img/icon/Overline_Mark.svg) 0 -1px no-repeat;
+}
+.sub-title__text {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	line-height: 27px;
+	color: #5D62B5
+}
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000;
+}
+.promise__items {
+	display: flex;
+	margin: 0 -12px 200px -12px;
+}
+.item-promise {
+	display: flex;
+	padding: 0 12px;
+	flex: 0 1 33.333%;
+	gap: 23px;
+}
+.item-promise__img {
+	flex: 0 0 63px;
+}
+.img1 {
+	background: url(../img/icon/01.svg) 0 0 no-repeat;
+}
+.img2 {
+	background: url(../img/icon/02.svg) 0 0 no-repeat;
+}
+.img3 {
+	background: url(../img/icon/03.svg) 0 0 no-repeat;
+}
+.item-promise__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0 0 20px 0;
+}
+.item-promise__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+.impact-header {
+	display: flex;
+	height: 315px;
+	gap: 110px;
+	margin: -80px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+.impact-header__text {
+	align-self: end;
+}
+.sub-title__img_img-white {
+	background: url(../img/icon/Overline_Mark_1.svg) 0 -1px no-repeat;
+}
+.sub-title__text_color-white,
+.title_color-white {
+	color: #fff;
+}
+.impact-header__img {
+	background: url(../img/dog.jpg) 0 0 no-repeat;
+	flex: 0 0 498px;
+	border-radius: 40px;
+}
+.impact__body {
+	background: #29C3BE;
+	margin: -235px 0 0 0;
+	padding: 320px 0 212px 0;
+}
+.impact__container {
+	position: relative;
+}
+.impact__blob {
+	position: absolute;
+	top: -320px;
+	left: 40%;
+}
+.impact__items {
+	display: flex;
+	margin: 0 -12px;
+}
+.item-impact {
+	padding: 12px;
+	flex: 0 1 25%;
+	display: flex;
+	gap: 11px;
+}
+.item-impact__img {
+	flex: 0 0 76px;
+}
+.img4 {
+	background: url(../img/icon/04.svg) 0 0 no-repeat;
+}
+.img5 {
+	background: url(../img/icon/05.svg) 0 0 no-repeat;
+}
+.img6 {
+	background: url(../img/icon/06.svg) 0 0 no-repeat;
+}
+.img7 {
+	background: url(../img/icon/07.svg) 0 0 no-repeat;
+}
+.item-impact__sub-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #fff;
+	margin: 4px 0;
+}
+.item-impact__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	margin: 0 0 6px 0;
+}
